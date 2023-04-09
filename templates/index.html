@@ -1,0 +1,123 @@
+<html>
+<head>
+  <title>Twitter Sentiment Analysis </title>
+  <style>
+    header {
+        background-color: #1DA1F2;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header img {
+        width: 50px;
+        margin-right: 10px;
+      }
+      header h1 {
+        font-size: 28px;
+        color: #fff;
+        margin: 0;
+      }
+   
+    form {
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"], button[type="reset"] {
+        background-color: #1DA1F2;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        
+        transition: background-color 0.3s ease;
+      }
+
+      button[type="submit"]:hover, button[type="reset"]:hover {
+        background-color: #0077be;
+      }
+
+      button[type="reset"] {
+        margin-left: 10px;
+        background-color: #ccc;
+        color: #333;
+      }
+      button[type="reset"]:hover {
+        background-color: #999;
+      }
+    
+    
+    .credits {
+       display: flex;
+	 justify-content:center;
+	 align-items: center;
+	 background-color: #1DA1F2;
+	 padding: 10px;
+       font-size: 25px;
+	 color: #fff;
+    }
+  
+     h4 { 
+	 font-size: 25px;
+	 color: black;
+       align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+      <img src= "C:\Users\asust\Downloads\Twitter Logo.png" alt="Twitter Logo">
+      <h1>Twitter Sentiment Analysis</h1>
+    </header>
+  
+  <form name="passdata" action="/start/" method="post">
+    <label for="hashtag-name">Hashtag Name</label>
+    <input type="text" id="hashtag-name" name="hashtag-name" required><br>
+    
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username"><br>
+    
+    <label for="from-date">From</label>
+    <input type="date" id="from-date" name="from-date" required><br>
+    
+    <label for="to-date">To</label>
+    <input type="date" id="to-date" name="to-date" required><br>
+    
+    <label for="tweets-number">No. of Tweets</label>
+    <input type="text" id="tweets-number" name="tweets-number" required><br>
+    
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form> 
+  
+  <br>
+<div class = "credits">
+<h4 align = "center"> Case Study Submitted by: </h4> <br>
+<p align = "center"> Durga Abhiram Gorle (122010331006) </p><br>
+<p align = "center"> Durga Sritha Dongla (122010319007) </p><br>
+<p align = "center"> Rishita Kakarlapudi (122010307007) </p><br>
+<p align = "center"> Anvesh Varma (122010311015) </p><br>
+
+</div>
+</body>
+</html>

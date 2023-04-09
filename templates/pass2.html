@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Twitter Sentiment Analysis </title>
+  <style>
+    header {
+        background-color: black;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header img {
+        width: 50px;
+        margin-right: 10px;
+      }
+      header h1 {
+        font-size: 28px;
+        color: #fff;
+        margin: 0;
+      }
+
+    .img1, .img2, .img3, .img4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding: 10px;
+    }
+    
+    .square {
+      width: 401px;
+      height: 401px;
+      background-color:#fff ;
+    }
+</style>
+<body>
+ <header>
+      <img src= "C:\Users\asust\Downloads\Twitter Logo.png" alt="Twitter Logo">
+      <h1>Twitter Sentiment Analysis Result</h1>
+  </header>
+  <div class = "img1">
+    <div class="square">
+        <img src = "{{url_for('static', filename='/pics/Sentimeent_Pie.png')}}" height = "401" width = "401" alt = "pie chart image">
+  
+    </div>
+  </div>
+  <div class = "img2">
+    <div class="square">
+        <img src = "{{url_for('static', filename='/pics/Sentimeent_Bar.png')}}" height = "401" width = "401" alt = "bar chart image">
+
+    </div>
+  </div>
+  <div class = "img3">
+    <div class="square">
+        <img src = "{{url_for('static', filename='/pics/Sentimeent_Scatter_OverTime.png')}}" height = "401" width = "401" alt = "scatter chart image">
+    </div>
+  </div>
+  <div class = "img4">
+    <div class="square">
+      <img src = "{{url_for('static', filename='/pics/wine.png')}}" height = "401" width = "401" alt = "word cloud image">
+    </div><br>
+</div>
+
+</body>
+</html>
+ 
