@@ -23,7 +23,7 @@ This project's main idea is to develop an easily accessible solution for Analysi
 
 ### Built With
 
-The complete system is built with usinf CPP language.
+The complete system is built with usinf python language.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [React.js]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
