@@ -1,6 +1,32 @@
-﻿# Twitter_Sentiment_Analysis
+<h3 align="center">Twitter Sentiment Analysis using Vader.</h3> 
+<p align="center">
+    Twitter hashtag analyser using Vader
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/abhiramgorle/Twitter_Sentiment_Analysis/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/abhiramgorle/Twitter_Sentiment_Analysis/issues">Request Feature</a>
+  </p>
  
- <h1>Escuse the Inconvenience..</h1>
- <h1>Currently under Construction</h1>
- <h1>Update:<h1>
- Completed the machine learning Program..currently creating the Reactjs interface to take inputs from the use
+## About The Project
+
+This project's main idea is to develop an easily accessible solution for Analysing the twitter hashtags and portraying the result in a user-friendly manner.
+
+## Main Page :
+![Development_Image](Main_page.png)
+
+## Reslut page :
+![Schematic Daiagram](Result_page.png)
+
+![Schematic Daiagram](Result_pagee.png)
+
+### Built With
+
+The complete system is built with usinf CPP language.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[React-url]: https://www.python.org/
+* [![React][React.js]][React-url]
+
