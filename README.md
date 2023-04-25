@@ -17,9 +17,9 @@ This project's main idea is to develop an easily accessible solution for Analysi
 ![Development_Image](Main_page.png)
 
 ## Reslut page :
-![Schematic Daiagram](Result_page.png)
+![Reslut page1](Result_page.png)
 
-![Schematic Daiagram](Result_pagee.png)
+![Reslut page2](Result_pagee.png)
 
 ### Built With
 
